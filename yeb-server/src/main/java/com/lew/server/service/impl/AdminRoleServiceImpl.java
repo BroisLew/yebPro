@@ -1,0 +1,20 @@
+package com.lew.server.service.impl;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.lew.server.mapper.AdminRoleMapper;
+import com.lew.server.pojo.AdminRole;
+import com.lew.server.service.IAdminRoleService;
+import org.springframework.stereotype.Service;
+
+/**
+ * <p>
+ *  服务实现类
+ * </p>
+ *
+ * @author Lew
+ * @since 2021-02-28
+ */
+@Service
+public class AdminRoleServiceImpl extends ServiceImpl<AdminRoleMapper, AdminRole> implements IAdminRoleService {
+
+}
